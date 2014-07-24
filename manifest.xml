@@ -1,0 +1,22 @@
+<package>
+  <description brief="pose_utils">
+
+     pose_utils
+
+  </description>
+  <author>Shaojie Shen</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pose_utils</url>
+
+  <depend package="roscpp"/>
+  <depend package="armadillo"/>
+
+  <export>
+    <cpp cflags="-I${prefix}/include"
+         lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib"/>
+  </export>
+
+</package>
+
+

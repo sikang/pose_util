@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sikang/ros/multirobotslam/pose_utils/build/devel/setup.sh
